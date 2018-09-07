@@ -22,7 +22,7 @@ and `cquery-chromium.sh` as the language server binary instead of `cquery` or
 ```sh
 $ cat clangd-chromium.sh
 #!/usr/bin/env /bin/sh
-exec lsp-filter clangd enable completion signatureHelp codeAction executeCommandProvider -- "$@"
+exec lsp-filter clangd enable completion signatureHelp codeAction executeCommand -- "$@"
 
 $ cat cquery-chromium.sh
 #!/usr/bin/env /bin/sh
