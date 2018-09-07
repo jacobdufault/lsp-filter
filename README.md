@@ -30,7 +30,7 @@ exec lsp-filter cquery disable completion signatureHelp codeAction -- "$@"
 ```
 
 vscode settings file:
-```json
+```js
 {
   // ...
   "clangd.path": "clangd-chromium.sh",
