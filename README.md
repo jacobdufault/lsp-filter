@@ -36,6 +36,11 @@ vscode settings file:
   "clangd.path": "clangd-chromium.sh",
   "cquery.launch.command": "cquery-chromium.sh",
   // ...
+
+  // You'll probably also want to turn off diagnostics for cquery, since clangd
+  // provides those.
+  "cquery.diagnostics.onParse": false,
+  "cquery.diagnostics.onType": false,
 }
 ```
 
