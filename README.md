@@ -34,8 +34,8 @@ vscode settings file:
 ```js
 {
   // ...
-  "clangd.path": "clangd-chromium.sh",
-  "cquery.launch.command": "cquery-chromium.sh",
+  "clangd.path": "clangd-filter.sh",
+  "cquery.launch.command": "cquery-filter.sh",
   // ...
 
   // You'll probably also want to turn off diagnostics for cquery, since clangd
@@ -45,7 +45,7 @@ vscode settings file:
 }
 ```
 
-Make sure `clangd-chromium.sh` and `cquery-chromium.sh` are in your `PATH`.
+Make sure `clangd-filter.sh` and `cquery-filter.sh` are in your `PATH`.
 
 ### Custom compile_commands.json directory
 
